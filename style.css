@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.msg {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+
+.msg i{
+  margin-right: 10px;
+  color: orange;
+}
+
+header {
+  background-color: lightblue;
+  position: relative;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+
+.nav-bar .logo {
+  color: blue;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.nav-bar .logo a {
+  text-decoration: none;
+}
+
+.nav-bar ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar ul li a:hover {
+  color: blue;
+}
+
+.nav-bar i {
+  display: none;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta{
+  width: 40%;
+}
+
+.content .cta h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: blue;
+}
+
+.content .cta p {
+  line-height: 1.5;
+}
+
+.content .cta button {
+  margin: 20px 0;
+  text-decoration: none;
+  background-color: orange;
+  color: white;
+  padding: 15px 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 0.7s;
+  border: 0;
+  cursor: pointer;
+}
+
+.content .cta button:hover {
+  border: 1px solid orange;
+  background-color: transparent;
+  color: orange;
+}
+
+.content img{
+  width: 40%;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 22px;
+  top: 30vh;
+}
+
+.svg1 {
+  position: absolute;
+  background-color: white;
+  color: blue;
+  width: 25%;
+  height: 25%;
+  text-align: center;
+  padding-top: 30px;
+  line-height: 2;
+  text-decoration: none;
+  cursor: auto;
+  margin-right: 55%;
+  box-shadow: 0 0 7px gray;
+  transition: 0.7s;
+}
+
+.svg2 {
+  position: absolute;
+  background-color: orange;
+  color: white;
+  width: 25%;
+  height: 25%;
+  text-align: center;
+  padding-top: 30px;
+  line-height: 2;
+  text-decoration: none;
+  cursor: auto;
+  box-shadow: 0 0 7px gray;
+}
+
+.svg3 {
+  position: absolute;
+  background-color: white;
+  color: blue;
+  width: 25%;
+  height: 25%;
+  text-align: center;
+  padding-top: 30px;
+  line-height: 2;
+  cursor: auto;
+  text-decoration: none;
+  margin-left: 55%;
+  box-shadow: 0 0 7px gray;
+  transition: 0.7s;
+}
+
+.svg1:hover,
+.svg3:hover {
+  background-color: orange;
+  color: white;
+  transition: 0.5s;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  line-height: 1.5;
+}
+.banner .about {
+  width: 33%;
+}
+
+.banner button {
+  margin: 5% 0;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 15px 50px;
+  transition: 0.7s;
+  border: 0;
+  cursor: pointer;
+}
+
+.banner button:hover {
+  border: 1px solid blue;
+  background-color: transparent;
+  color: blue;
+}
+
+.banner img{
+  width: 50%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  line-height: 1.5;
+  background-color: lightblue;
+  /* height: 120vh; */
+}
+
+main h1 {
+  color: blue;
+}
+
+main button {
+  margin: 5% 0;
+  text-decoration: none;
+  border: 1px solid orange;
+  background-color: orange;
+  color: white;
+  padding: 15px 50px;
+  transition: 0.7s;
+}
+
+main button:hover {
+  background-color: lightblue;
+  color: orange;
+}
+
+.services {
+  text-align: center;
+  padding: 9% 7% 5%;
+}
+
+.services div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.services .images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  color: black;
+  width: 31%;
+  height: 25%;
+  text-align: center;
+  padding: 30px 10px 10px;
+  cursor: auto;
+  text-decoration: none;
+  line-height: 1.5;
+  box-shadow: 0 0 7px gray;
+}
+
+.services .images:hover {
+  background-color: orange;
+  color: white;
+  transition: 0.5s;
+}
+
+.services .images img {
+  width: 20%;
+}
+
+.services h4 {
+  margin-top: 70px;
+}
+
+.services a {
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 15px 50px;
+  transition: 0.7s;
+}
+
+.services a:hover {
+  border: 1px solid blue;
+  background-color: transparent;
+  color: blue;
+}
+
+aside {
+  text-align: center;
+  padding: 3% 7%;
+}
+
+aside h1 {
+  padding-bottom: 40px;
+}
+
+.card {
+  width: 100%;
+  padding: 30px;
+  box-shadow: 0 0 7px gray;
+  text-align: start;
+  margin-top: 20px;
+  position: relative;
+}
+
+.card p:nth-last-child(1) {
+  margin-top: 10px;
+}
+
+.card #quote {
+  position: absolute;
+  right: 8%;
+  top: 50px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+}
+
+.client img {
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+.client i {
+  color: orange;
+}
+
+figcaption {
+  padding: 3% 7%;
+  text-align: center;
+  background-color: lightblue;
+}
+
+input {
+  height: 50px;
+  width: 80%;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 17px;
+  border: 0;
+  box-shadow: 0 0 7px gray;
+}
+
+#message {
+  height: 25vh;
+}
+
+input[type="submit"] {
+  color: white;
+  background-color: blue;
+  border: 0;
+  cursor: pointer;
+  width: 20%;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.7;
+}
+
+footer {
+  background-color: rgb(2, 2, 75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 5% 5% 0;
+}
+
+footer h1 {
+  font-size: 25px;
+}
+
+.contact {
+  display: flex;
+  text-align: center;
+  margin: 3% 0;
+  width: 50%;
+}
+
+.details {
+  padding: 0 50px;
+}
+
+.details i {
+  margin-bottom: 10px;
+  padding: 30px;
+  background-color: blue;
+  border-radius: 100%;
+}
+
+.details:hover{
+  color: orange;
+}
+
+.social-media {
+  background-color: white;
+  margin: 2% 0 5%;
+}
+
+.social-media i {
+  margin: 7px;
+  color: blue;
+}
+
+.social-media i:hover {
+  color: orange;
+}
+
+#copyright {
+  margin: 2% 0;
+}
