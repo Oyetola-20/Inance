@@ -57,10 +57,15 @@
 
   main {
     flex-direction: column-reverse;
+    padding-top: 20px;
   }
 
   main .about {
     width: 90%;
+  }
+
+  main img{
+    width: 100%;
   }
 
   .services div {
@@ -73,6 +78,7 @@
 
   .contact {
     flex-direction: column;
+    width: 100%;
   }
 
   .details {

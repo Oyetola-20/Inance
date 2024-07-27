@@ -204,8 +204,8 @@ main {
   margin-top: 100px;
   line-height: 1.5;
   background-color: lightblue;
-  /* height: 120vh; */
 }
+
 
 main h1 {
   color: blue;
@@ -378,7 +378,7 @@ footer h1 {
 
 .details {
   padding: 0 50px;
-}
+}   
 
 .details i {
   margin-bottom: 10px;
