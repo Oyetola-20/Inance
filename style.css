@@ -15,7 +15,7 @@
   background-color: black;
 }
 
-.msg i{
+.msg i {
   margin-right: 10px;
   color: orange;
 }
@@ -65,7 +65,7 @@ header {
   align-items: center;
 }
 
-.cta{
+.cta {
   width: 40%;
 }
 
@@ -99,7 +99,7 @@ header {
   color: orange;
 }
 
-.content img{
+.content img {
   width: 40%;
 }
 
@@ -193,7 +193,7 @@ section {
   color: blue;
 }
 
-.banner img{
+.banner img {
   width: 50%;
 }
 
@@ -205,7 +205,6 @@ main {
   line-height: 1.5;
   background-color: lightblue;
 }
-
 
 main h1 {
   color: blue;
@@ -340,8 +339,15 @@ input {
   box-shadow: 0 0 7px gray;
 }
 
-#message {
-  height: 25vh;
+textarea {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  min-width: 80%;
+  max-width: 80%;
+  min-height: 100px;
+  max-height: 150px;
+  font-size: 16px;
 }
 
 input[type="submit"] {
@@ -378,7 +384,7 @@ footer h1 {
 
 .details {
   padding: 0 50px;
-}   
+}
 
 .details i {
   margin-bottom: 10px;
@@ -387,7 +393,7 @@ footer h1 {
   border-radius: 100%;
 }
 
-.details:hover{
+.details:hover {
   color: orange;
 }
 
